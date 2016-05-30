@@ -50,7 +50,7 @@ class CompanyDetailsForm(forms.Form):
         self.helper.layout = Layout(
             Field('company_name', placeholder="Company Name"),
             Field('company_description', placeholder="Company Description"),
-            Submit('create', 'Create', css_class="btn-warning"),
+            Submit('create', 'Create Company', css_class="btn-warning"),
             )
         
     def is_valid(self):
