@@ -1,0 +1,6 @@
+{% load crispy_forms_tags %}
+{% for product in my_products %}
+<th>{{product}}</th>
+{% endfor %}
+
+{% crispy create_company_form %}
